@@ -1,0 +1,10 @@
+body {background-color: #CDB4DB; color: #000000; font family: Arial, sans-serif;}
+
+h1, h2, h3 {color: #A2D2FF;}
+a {color: #FFAFCC: text-decoration: none}
+
+nav {background-color: #BDE0FE; padding: 10px; margin-bottom: 30px;}
+
+nav a {color: #FFFFFF: padding: 5px 10px;}
+
+nav a:hover {background-color: #FFC8DD; color: #000000;}
