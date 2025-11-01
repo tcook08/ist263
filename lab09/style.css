@@ -80,26 +80,32 @@ footer {
 
 .other-skills {
     flex: 1;
-    background-color: #f4f7ff;
-    border-radius: 12px;
+    background-color: #CDB4DB;
+    border-radius: 15px;
     padding: 1rem;
-    color: #000;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
 }
 
 .other-skills h2 {
     margin-top: 0;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
 .other-skills ul {
+    list-style-type: none;
+    padding: 0;
     margin: 0;
-    padding-left: 1.25rem;
-    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
-body {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
+.other-list li {
+    font-weight: 500;
 }
