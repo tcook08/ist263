@@ -39,10 +39,10 @@ footer {
 
 .skills-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 1rem;
     flex-wrap: wrap;
+    gap: 2rem;
     margin-bottom: 20px;
 }
 
@@ -96,4 +96,10 @@ footer {
     margin: 0;
     padding-left: 1.25rem;
     line-height: 1.5;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
 }
