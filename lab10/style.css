@@ -1,0 +1,146 @@
+nav a:hover {
+    background-color: #CDB4DB;
+    color: #000000;
+    font-weight: bold;
+}
+
+h3 {
+    color: #A2D2FF
+}
+
+a{
+    color: #FFAFCC;
+    text-decoration: none;
+}
+
+button {
+    background-color: #BDE0FE;
+    padding: 10px; 
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #FFC8DD;
+    color: #000000;
+}
+
+.page-title {
+    text-align: center; 
+    margin: 20px auto;
+    font-size: 2rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 20px;
+}
+
+.skill {
+    text-align: center;
+    flex: 1 1 120px;
+    min-width: 120px;
+}
+
+.skill img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    background: #f2f2f2;
+    border-radius: 10px;
+}
+
+.skill p {
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.main-skills {
+    flex: 3;
+}
+
+.other-skills {
+    flex: 1;
+    background-color: #FFAFCC;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+
+}
+
+.other-skills h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.other-skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.other-list li {
+    font-weight: 500;
+}
+
+.myphoto {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.contactflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 20px;
+}
+.contactflex iframe, 
+.contactflex form {
+    flex: 1 1 400px;
+    min-width: 300px; 
+}
+
+@media screen and (max-width: 768px) {
+    nav a {
+        display: block;
+        width: 100px;
+        text-align: center;
+        padding: 10px;
+        margin: 5px 0;
+    }
+
+    nav span {
+        display: none;
+    }
+}
+
+
