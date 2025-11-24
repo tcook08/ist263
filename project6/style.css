@@ -4,15 +4,15 @@ body. h1, h2, p, ul, li {
 }
 
 body {
-    font family: Georgia, sans-serif;
+    font-family: Georgia, sans-serif;
     background-color: FFF7FC;
-    color: #e8c0f6;
+    color: #3E324C;
     line-height: 1.6;
     padding: 20px;
 }
 
 h1 {
-    color: #e8c0f6;
+    color: #9A7FCC;
 }
 
 nav ul {
@@ -24,12 +24,12 @@ nav ul {
 
 nav a {
     text-decoration: none; 
-    color: #D8B4F8;
+    color: #9A7FCC;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #F7C8E0
+    color: #C06BA6
 }
 
 .intro {
