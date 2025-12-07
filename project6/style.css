@@ -1,10 +1,10 @@
-body. h1, h2, p, ul, li {
+body h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: Georgia, sans-serif;
+    font-family: Georgia, serif;
     background-color: FFF7FC;
     color: #3E324C;
     line-height: 1.6;
