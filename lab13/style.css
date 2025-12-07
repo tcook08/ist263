@@ -6,6 +6,9 @@
 .skip-link:focus {
     left: 0;
 }
+nav a {
+    color: #e972a2
+}
 
 nav a:hover {
     background-color: #000000;
