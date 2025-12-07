@@ -18,7 +18,7 @@ h3 {
 }
 
 a{
-    color: #FFAFCC;
+    color: #fb71a4;
     text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ footer {
 
 .other-skills {
     flex: 1;
-    background-color: #FFAFCC;
+    background-color: #fb71a4;
     border-radius: 15px;
     padding: 1rem;
     display: flex;
