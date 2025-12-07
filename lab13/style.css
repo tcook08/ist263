@@ -9,6 +9,7 @@
 nav a {
     color: #000000;
 
+
 }
 
 nav a:hover {
@@ -22,7 +23,7 @@ h3 {
 }
 
 a{
-    color: #fb71a4;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -151,6 +152,7 @@ footer {
         text-align: center;
         padding: 10px;
         margin: 5px 0;
+        color:#000000;
     }
 
     nav span {
@@ -174,6 +176,7 @@ footer {
         display: block;
         text-align: center;
         padding: 8px 0;
+        color:#000000;
     }
 }
 
