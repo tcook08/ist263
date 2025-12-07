@@ -7,11 +7,12 @@
     left: 0;
 }
 nav a {
-    color: #964d6a
+    color: #fb71a4;
+
 }
 
 nav a:hover {
-    background-color: #000000;
+    background-color: #c13cab;
     color: #000000;
     font-weight: bold;
 }
