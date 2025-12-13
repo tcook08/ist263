@@ -80,9 +80,10 @@ h2 {
 .earringrow img,
 .medallionrow img, 
 .regaliarow img {
-    width: 250px;
-    height: 250px;
+    width: 320px;
+    height: 320px;
     object-fit: cover;
+
 } 
 
 figcaption {
