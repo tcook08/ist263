@@ -56,6 +56,24 @@ h2 {
     margin-bottom: 15px;
 }
 
+.earringrow {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.medallionrow {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.regaliarow {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column; 
