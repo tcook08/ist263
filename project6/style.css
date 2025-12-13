@@ -43,7 +43,7 @@ footer {
     color: #e8c0f6;
 }
 
-main img {
+.hero {
     width: 80%;
     height: auto;
     display: block;
