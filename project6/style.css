@@ -37,33 +37,10 @@ nav a:hover {
     max-width: 650px;
 }
 
-main {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-main img {
-    flex-shrink: 0;
-    width: 400px;
-    height: auto;
-}
-
-main p {
-    flex: 1;
-}
-
 footer {
     margin-top: 30px;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-bottom: -20px;
-    padding: 20px;
     font-size: 0.9em;
-    color: #6b4a7a;
-    text-align: center;
-    background-color: #d4dfd4;
-    width: calc(100% + 40px);
+    color: #e8c0f6;
 }
 
 .hero {
