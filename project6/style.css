@@ -37,6 +37,22 @@ nav a:hover {
     max-width: 650px;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+main img {
+    flex-shrink: 0;
+    width: 400px;
+    height: auto;
+}
+
+main p {
+    flex: 1;
+}
+
 footer {
     margin-top: 30px;
     margin-left: -20px;
