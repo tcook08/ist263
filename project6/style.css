@@ -49,6 +49,13 @@ nav a:hover {
 }
 
 header {
+    padding: 2rem;
+}
+.page-title {
+    margin: 0 0 1rem 0;
+}
+
+header {
     width: 100%;
     padding: 30px 40px;
 }
