@@ -15,6 +15,11 @@ body {
 h1 {
     color: #9A7FCC;
 }
+.page-title {
+    font-size: 3rem;
+    margin-top: -10px;
+    margin-bottom: 0,5rem;
+}
 
 nav ul {
     list-style: none;
