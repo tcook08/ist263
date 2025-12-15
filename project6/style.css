@@ -167,7 +167,7 @@ figcaption {
     font-size: 0.95rem;
     color: #555;
 }
-.about-content h3 {
+.about-contact h3 {
     font-size: 1.2 rem;
     margin-bottom: 10px;
     color: #9b8ad6'
@@ -176,7 +176,7 @@ figcaption {
     color: #5a5a5a;
     text-decoration: none;
 }
-.about-content a:hover {
+.about-contact a:hover {
     color: #9b8ad6;
 }
 
