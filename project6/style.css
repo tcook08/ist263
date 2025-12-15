@@ -110,16 +110,20 @@ figcaption {
 }
 
 .about-text {
-    flex: 2;
+    flex: 1.5;
+}
+
+.about-text h2 {
+    margin-top: 0;
 }
 
 .about-image {
-    flex: 1;
+    flex: 1.3;
 }
 
 .about-image img {
     width: 100%;
-    max-width: 450px;
+    max-width: 500px;
     height: auto;
     border-radius: 6px;
 }
