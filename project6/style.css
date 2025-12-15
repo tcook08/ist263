@@ -201,7 +201,7 @@ figcaption {
     align-items: center;
     z-index: 1000;
 }
-.lightbox: target {
+.lightbox:target {
     display: flex;
 }
 
@@ -224,6 +224,38 @@ figcaption {
         text-align: center;
         gap: 10px;
     }
+}
+
+/* Lightbox / modal for enlarged images */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+/* Make gallery images show zoom cursor */
+.earringrow img,
+.medallionrow img,
+.regaliarow img {
+    cursor: zoom-in;
 }
 @media (max-width: 800px) {
     .about-container {
