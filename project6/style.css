@@ -201,6 +201,9 @@ figcaption {
     align-items: center;
     z-index: 1000;
 }
+.lightbox: target {
+    display: flex;
+}
 
 .lightbox img {
     max-width: 90%;
