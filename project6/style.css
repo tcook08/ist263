@@ -226,7 +226,7 @@ figcaption {
     }
 }
 
-/* Lightbox / modal for enlarged images */
+
 .lightbox {
     display: none;
     position: fixed;
@@ -251,7 +251,7 @@ figcaption {
     cursor: pointer;
 }
 
-/* Make gallery images show zoom cursor */
+
 .earringrow img,
 .medallionrow img,
 .regaliarow img {

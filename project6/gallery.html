@@ -91,7 +91,7 @@
     </section>
 </main>
 
-<!-- Lightbox modal (hidden by default) -->
+
 <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog">
     <img id="lightbox-img" alt="Enlarged photo">
 </div>
@@ -106,7 +106,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const lightbox = document.getElementById('lightbox');
     const lbImg = document.getElementById('lightbox-img');
 
-    // Open lightbox when image is clicked
     images.forEach(img => {
         img.addEventListener('click', function () {
             lbImg.src = img.src;
@@ -116,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Close lightbox when clicking overlay or pressing Escape
+ 
     lightbox.addEventListener('click', function (e) {
         if (e.target === lightbox || e.target === lbImg) {
             lightbox.classList.remove('active');
