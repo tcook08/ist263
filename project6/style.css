@@ -93,6 +93,9 @@ footer {
     display: block;
     margin: 20px auto;
 }
+section a {
+    font-weight: 600;
+}
 
 h2 {
     color: #695987;
