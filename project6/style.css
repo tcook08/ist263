@@ -111,6 +111,7 @@ figcaption {
 
 .about-text {
     flex: 1.5;
+    padding-top: 24px;
 }
 
 .about-text h2 {
