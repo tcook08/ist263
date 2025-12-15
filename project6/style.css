@@ -108,3 +108,26 @@ figcaption {
         gap: 10px;
     }
 }
+
+/* Lightbox / modal for enlarged images */
+.lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.8);
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+.lightbox img {
+    max-width: 92%;
+    max-height: 92%;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+}
+
+/* make gallery images obvious clickable */
+.earringrow img,
+.medallionrow img,
+.regaliarow img {
+    cursor: zoom-in;
+}
